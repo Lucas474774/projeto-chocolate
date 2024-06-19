@@ -1,8 +1,40 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-   header {
-background-image:url(assets/banner1.png);
-   
+
+header {
+  width: 100%;
+
+  background-image: url("assets/banner1.png");
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+
+nav > div:nth-child(2) > img {
+  width: 130px;
+}
+nav > div:last-child > img {
+  margin: 0 10px;
+}
+
+h1 {
+  font-family: "yanone Kaffeesatz", sans-serif;
+  color: white;
+  font-size: 100px;
+}
+h2 {
+  font-family:"PT Sans", sans-serif ;
+  color: white;
+  font-size: 40px;
+}
+section > div:first-child >button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+
